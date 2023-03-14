@@ -1,0 +1,945 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+main {
+  min-height: 60vh;
+}
+
+.main-container {
+  padding: 50px 0;
+  background-color: #151f29;
+}
+.main-container-footer {
+  padding: 50px 0px 0px 0px;
+  background-color: #151f29;
+}
+.header-top .call-us {
+  color: #fff;
+  display: flex;
+  justify-content: start;
+}
+.header-top .top-social ul {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  text-decoration: none;
+}
+.top-social ul li i {
+  color: #ffea20;
+}
+.top-social ul li i:hover {
+  color: #4169e1;
+}
+.fa-brands {
+  padding: 0 15px;
+}
+.navigation {
+  display: flex;
+}
+.logo img {
+  width: 270px;
+}
+.navigation .main-menu {
+  display: flex;
+  text-align: center;
+  justify-content: end;
+}
+.navigation .main-menu ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.navigation .main-menu ul li {
+  text-align: center;
+  list-style: none;
+
+  position: relative;
+}
+.navigation .main-menu ul li a {
+  color: #f0f0f0;
+  padding: 12px 25px;
+  display: block;
+  text-decoration: none;
+  background-color: #151f29;
+}
+.navigation .main-menu ul li a:hover {
+  color: #000000;
+  background-color: #fffb00;
+}
+/* ------subMenu------------ */
+.navigation .main-menu .sub-menu {
+  width: 200px;
+  background-color: #000;
+  padding: 0;
+  position: absolute;
+  display: none;
+  z-index: 1000;
+}
+.navigation .main-menu ul li:hover ul.sub-menu {
+  display: block;
+}
+.navigation .main-menu .sub-menu li {
+  text-align: left;
+}
+.navigation .main-menu .sub-menu li a {
+  color: #fff;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ffea20;
+}
+.sub-menu-pre {
+  position: relative;
+}
+.navigation .main-menu .sub-menu1 {
+  width: 200px;
+  background-color: #000;
+  padding: 0;
+  display: none;
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+.navigation .main-menu .sub-menu li:hover ul.sub-menu1 {
+  display: block;
+}
+.navigation .main-menu .sub-menu li:hover .sub-menu-1 {
+  display: block;
+  top: 0;
+}
+/* ----------End container header---------- */
+.footer {
+  color: #f0f0f0;
+}
+.footer-social .logo img {
+  width: 250px;
+}
+.footer-social .logo p {
+  padding: 10px 20px 0px 0px;
+  text-align: justify;
+}
+.footer-social .top-social ul {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-social .top-social ul li a {
+  display: flex;
+  text-decoration: none;
+  justify-content: end;
+}
+
+.footer-services ul li a,
+.footer-link ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-services ul li a:hover,
+.footer-link ul li a:hover {
+  text-decoration: none;
+  color: #ffea20;
+}
+
+.footer-link ul,
+.footer-services ul {
+  list-style-type: none;
+  align-items: start;
+  justify-content: right;
+  padding-left: 0rem;
+}
+.footer-link ul li,
+.footer-services ul li {
+  padding: 15px 0px;
+}
+.footer-link h3,
+.footer-services h3 {
+  color: #ffea20;
+}
+.footer-subscribe a{
+  text-decoration: none;
+  color: #ffea20;
+}
+.footer-subscribe a:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-outer {
+  background-color: #ffea20;
+}
+
+.footer-outer-inner {
+  height: 60px;
+  background-color: #ffea20;
+  display: flex;
+  align-items: center;
+}
+.footer-outer-inner .left p {
+  text-align: start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+.footer-outer-inner .right p {
+  text-align: end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+/* ------content header----------- */
+
+.content-header h1 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content-header h3 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 26px;
+}
+.content-header span {
+  width: 60px;
+  height: 2px;
+  background-color: #ffea20;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+/* ------End content header----------- */
+.content-text h1 {
+  font-family: "Inter", Sans-serif;
+  font-size: 49px;
+  letter-spacing: 0px;
+  color: #ffea20;
+  font-weight: 400;
+}
+.content-text h3 {
+  font-family: "Inter", Sans-serif;
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: #ffea20;
+  font-weight: 300;
+}
+.content-text P {
+  font-size: 18px;
+  color: #536942;
+  text-align: justify;
+  padding-right: 20px;
+}
+.blog-content .content-text P {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: justify;
+}
+.content-text .contact-btn {
+  font-size: 18px;
+  font-weight: normal;
+  border: 2px solid #ffea20;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 17px 40px 17px 40px;
+  background-color: #151f29;
+  color: #f0f0f0;
+  margin-top: 45px;
+  width: 250px;
+}
+.content-text .contact-btn:hover {
+  background-color: #ffea20;
+  color: #000;
+}
+.content-text .contact-btn i {
+  padding: 5px;
+}
+/* --------end video contnet--------- */
+
+.service-item ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.service-item ul li a {
+  margin: 0 15px;
+  display: block;
+  padding: 15px 30px;
+  color: #fff;
+  border: 1px solid #ffea20;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.service-item ul li a:hover {
+  background-color: #ffea20;
+  color: #000;
+}
+
+/* -----------blog post----------- */
+.blog-post .content-text P {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: justify;
+  padding-left: 20px;
+}
+.blog-post .content-text .contact-btn {
+  font-size: 18px;
+  font-weight: normal;
+  border: 2px solid #ffea20;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 17px 40px 17px 40px;
+  background-color: #151f29;
+  color: #f0f0f0;
+  margin-top: 45px;
+  margin-left: 20px;
+  width: 250px;
+}
+
+  .form-check-input {
+  
+    padding: 13px;
+    margin: 19px;
+
+}
+.blog-post .content-text .contact-btn:hover {
+  background-color: #ffea20;
+  color: #000;
+}
+.blog-post .content-text .contact-btn i {
+  padding: 5px;
+}
+
+
+
+/* ---------package-list------------ */
+
+.content-text .about-content-text{
+  color: rgb(255, 255, 255);
+}
+.about-content-inner{
+  margin-bottom: 40px;
+}
+
+/* -------end about--------- */
+.content-text .information{
+  padding: 21px 0px;
+}
+
+/* --------login----------- */
+.login-form{
+  background-color: #f6f8f5;
+}
+.login-inner{
+  display: flex;
+  justify-content: center;
+}
+.login {
+  padding: 20px;
+
+}
+
+.login-form h1 {
+  font-size: 30px; 
+  color: #000000;
+  padding: 76px;
+  font-weight: 600;
+}
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.5em !important;
+  margin: 0;
+  padding: 13px;
+}
+
+
+.login .form-label {
+  font-weight: 600;
+  font-size: 15px !important;
+  line-height: 22px !important;
+}
+
+.form-check-label{
+  margin: 1px 0px 9px 8px;
+}
+.btn-group{
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+
+
+}
+.blue-btn{
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #3ba1da;
+  padding: 13px;
+  margin: 4px 6px;
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+.blue-btn:hover{
+  text-decoration: none;
+  color: #000000;
+  background-color: #3ba1da;
+  text-decoration: none;
+  padding: 13px;
+  margin: 4px 6px;
+   margin-bottom: 50px;
+}
+
+.gray-btn{
+  text-decoration: none;
+  color: #666666;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #eeeeee;
+  padding: 13px;
+  margin: 4px 6px;
+  margin-bottom: 50px;
+
+}
+.gray-btn:hover{
+  text-decoration: none;
+  color: #232020;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #e5e5e5;
+  padding: 13px;
+  margin: 4px 6px;
+   margin-bottom: 50px;
+}
+/* -----------wedding--------- */
+
+
+img{
+	width: 100%;
+}
+
+.gallery img{
+	
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+/* ===========photoAlbum============ */
+
+.gallery1{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+
+}
+.gallery1 a{
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px #000;
+}
+.gallery1 a img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gallery1 a img:hover{
+  transform: scale(1.4);
+}
+.lg-actions .lg-prev {
+  
+  
+  right: 983px;
+}
+/* ------------youtube------------ */
+.package{
+  border:2px solid #1cf196; 
+ 
+  margin: 15px;
+}
+.package-top .logo i {
+  font-size: 55px;
+  color: #ff0000;
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.package-bottom p {
+  color: #979797;
+  font-size: 16px;
+  text-align: center;
+  padding: 0px;
+  margin: -0.5px;
+}
+.package-top .package-header h3 {
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+.package-top .package-header h5 {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.package-top .package-header h4 {
+  font-size: 50px;
+  text-align: center;
+  color: #1cf196;
+  margin-bottom: 20px;
+}
+.package-btn {
+  border-radius: 39px;
+  background-color: #1cf196;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 19px 5px;
+  display: block;
+  margin: auto;
+  width: 265px;
+  margin: 45px auto;
+}
+.package-btn i {
+  margin-right: 10px;
+}
+/* -----------end package--------- */
+.client-query-inner {
+  width: 1200px;
+  margin: auto;
+  color: #ffffff;
+  margin-top: 40px;
+  
+}
+.query-form {
+  width: 700px;
+  margin: auto;
+}
+.query-form input[type="text"],.query-form
+input[type="email"],.query-form input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #ffea20; 
+  color: #eee; 
+}
+.query-form label{
+  color: white;
+}
+.query-form input[type="file"] {
+  width: 100% ;
+  height: 30px;
+  border: 2px dotted rgb(255, 255, 255);
+}
+.query-form input[type="checkbox"]{
+  display: inline-block;
+  box-sizing: 30px;
+
+}
+.query-form textarea#Message {
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: transparent;
+  border-bottom: 2px solid #ffea20;
+  color: #f0f0f0;
+}
+
+.query-form1 {
+  display: block;
+  position: relative;
+  /* padding-left: 35px; */
+  margin-bottom: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #eee;
+}
+.query-form1:focus-visible {
+  border: 0;
+  outline-offset: 0;
+  text-shadow: none;
+}
+/* The query-form2 */
+.query-form2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.query-form2 p{
+  font-size: 16px;
+}
+/* Hide the browser's default radio button */
+.query-form2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  border-color: #ffea20;
+}
+
+/* On mouse-over, add a grey background color */
+.query-form2:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.query-form2 input:checked ~ .checkmark {
+  background-color: #ffea20;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.query-form2 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.query-form2 .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 40%;
+  background: white;
+}
+
+.request-btn {
+  
+    background-color: #ffea20;
+    color: #000;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 500;
+    width: 150px;
+    height: 47px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px;
+}
+.request-btn a{
+  text-decoration: none;
+  font-size: 16px;
+}
+.request-btn a:hover {
+ 
+  color: #fff;
+}
+.request-btn:hover {
+  background-color: #1cf196;
+  color: #fff;
+}
+/* --------------End .query-form-------------- */
+/* -------wallpapers-------- */
+.wallpapers-content-inner{
+  display: flex;
+  justify-content: space-evenly;
+}
+.wallpapers-content-inner .text h1
+{
+  color:#ffffff;
+  font-size:  62px;
+  margin-top: 20px;}
+
+.wallpapers-content-inner .text h5
+{
+  color:#ffea20;
+  font-size:  22px;
+  margin-top: 20px;
+
+}
+.login-gift label{
+  color:#ffffff;
+
+}
+.login-gift .form-control {
+  background: transparent;
+  border:  solid #ffea20;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 0px;
+  margin-bottom: 8px;
+
+
+}
+.wallpapers-content-inner  .contact-btn {
+  font-size: 18px;
+  font-weight: normal;
+  border: 2px solid #ffea20;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 17px 40px 17px 40px;
+  background-color: #151f29;
+  color: #f0f0f0;
+  margin-top: 25px;
+  
+}
+.wallpapers-content-inner  .contact-btn a {
+ 
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.wallpapers-content-inner  .contact-btn:hover {
+  background-color: #ffea20;
+  color: #000000;
+}
+.wallpapers-content-inner  .contact-btn a:hover {
+  background-color: #ffea20;
+  color: #000000;
+}
+/* Full-width input fields */
+/* input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+} */
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+ 
+}
+
+/* ------------review------------ */
+.review-inner {
+  background: url(../image/portraits.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.review-inner .review-content {
+  height: 512px;
+    background-color: transparent;
+    margin: 116px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+}
+.review-text {
+  padding: 50px 50px 10px 50px;
+  text-align: justify;
+}
+.reviewer-picture img {
+  border-radius: 50%;
+}
+/* ------------End review------------ */
+
+/* ----------editing------- */
+.editing {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+}
+.content-header1 h1 {
+  color: rgb(255, 255, 255);
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 36px;
+}
+.content-header1 h3 {
+  color: rgb(255, 255, 255);
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 26px;
+}
+.content-header1 .span1 {
+  width: 4px;
+  height: 4px;
+  background-color: #ffea20;
+  display: inline-block;
+  margin: auto;
+  margin-left: 2px;
+}
+.content-header1 .span2 {
+  width: 30px;
+  height: 4px;
+  background-color: #ffea20;
+  display: inline-block;
+  margin: auto;
+  margin-left: 5px;
+}
+/* ----------End editing------- */
+.owl-theme .owl-nav { 
+    width: 300px;
+    position: relative;
+    left: 38%;
+    display: flex;
+    z-index: 999;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
+
+/* -------blog--------- */
+.blog{
+  display: flex;
+  width: 1200px;
+  
+  background: white;
+  color:black;
+  flex-direction: column;
+}
+.blog-inner{
+  padding:76px;
+  border-bottom: 1px solid black;
+}
+.blog .blog-inner h1 a{
+  color:#536942;
+  font-size: 32px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.blog .blog-inner p{
+  color:#536942;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.blog .blog-inner h6 a,.blog .blog-inner h6{
+  color:#ffd936;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
