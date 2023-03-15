@@ -21,9 +21,7 @@
         <div class="col-md-6 content-text">
           <h1>Creates for you One edit at a time</h1>
 
-          <button type="button" class="contact-btn">
-            <i class="fa fa-address-card-o" aria-hidden="true"></i> Blog Post
-          </button>
+            <a class="btn btn-primary contact-btn" href="blog.php"><i class="fa fa-address-card-o" aria-hidden="true"></i> Blog Post</a>
         </div>
         <div class="col-md-6 content-demo">
           <iframe width="650" height="360" src="https://www.youtube.com/embed/qZVTkn2NjS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -71,10 +69,7 @@
               <p>1 Youtube Thumbnail</p>
               <p>Epedamic sound</p>
             </div>
-
-            <button type="button" class="package-btn">
-              <i class="fa-solid fa-money-bills"></i> Buy Now
-            </button>
+            <a class="btn btn-primary package-btn" href="easy-payment.php"><i class="fa-solid fa-money-bills" aria-hidden="true"></i> Buy Now</a>
           </div>
           <div class="col package">
             <div class="package-top">
@@ -104,9 +99,7 @@
               <p>Epedamic sound</p>
             </div>
 
-            <button type="button" class="package-btn">
-              <i class="fa-solid fa-money-bills"></i> Buy Now
-            </button>
+            <a class="btn btn-primary package-btn" href="easy-payment.php"><i class="fa-solid fa-money-bills" aria-hidden="true"></i> Buy Now</a>
           </div>
           <div class="col package">
             <div class="package-top">
@@ -136,9 +129,7 @@
               <p>Epedamic sound</p>
             </div>
 
-            <button type="button" class="package-btn">
-              <i class="fa-solid fa-money-bills"></i> Buy Now
-            </button>
+            <a class="btn btn-primary package-btn" href="easy-payment.php"><i class="fa-solid fa-money-bills" aria-hidden="true"></i> Buy Now</a>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@
     </header>
     <main>
         <section class="main-container">
-            <div class="container login-form my-5">
+            <div class="container login-form ">
 
                 <h1>Register</h1>
 
@@ -39,7 +39,7 @@
                             <input class="form-control" type="lname" id="lname">
 
                         </div>
-                        <div class="form-group" >
+                        <div class="form-group">
                             <label class=" form-label" for="email">Email address</label>
                             <input class="form-control" type="email" id="email" required>
                             <div class="invalid-feedback">
@@ -63,10 +63,11 @@
 
                         <div class="btn-group">
                             <button class="btn btn-primary blue-btn" type="submit">Register</button>
-                            <a class="btn btn-primary gray-btn" href="login.php" role="button">login</a>
+                            <a class="btn btn-primary gray-btn" href="login.php" role="button">Login</a>
                         </div>
+                        <div class="space"></div>
                     </form>
-
+                    
                 </div>
 
             </div>

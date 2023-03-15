@@ -3,12 +3,12 @@
 body {
   margin: 0;
   padding: 0;
-  
-}
-main {
-  min-height: 60vh;
 }
 
+.container{
+  
+  padding: 0;
+}
 .main-container {
   padding: 50px 0;
   background-color: #151f29;
@@ -150,10 +150,11 @@ main {
   align-items: start;
   justify-content: right;
   padding-left: 0rem;
+  margin-top: 32px;
 }
 .footer-link ul li,
 .footer-services ul li {
-  padding: 15px 0px;
+  padding: 7px 0px;
 }
 .footer-link h3,
 .footer-services h3 {
@@ -347,18 +348,21 @@ main {
 }
 .login {
   padding: 20px;
-
+  padding-bottom: 0px;
 }
 
 .login-form h1 {
-  font-size: 30px; 
-  color: #000000;
-  padding: 76px;
+  font-size: 30px;
+  color: #666666;
+  padding: 72px;
   font-weight: 600;
+  margin: auto;
+  position: relative;
+  left: 129px;
 }
 .form-check .form-check-input {
   float: left;
-  margin-left: -1.5em !important;
+  margin-left: -1em !important;
   margin: 0;
   padding: 13px;
 }
@@ -368,17 +372,16 @@ main {
   font-weight: 600;
   font-size: 15px !important;
   line-height: 22px !important;
+  margin-top: 14px;
 }
 
 .form-check-label{
   margin: 1px 0px 9px 8px;
 }
 .btn-group{
-margin-top: 20px;
-display: flex;
-justify-content: space-between;
-
-
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 .blue-btn{
   text-decoration: none;
@@ -388,9 +391,8 @@ justify-content: space-between;
   padding: 13px;
   margin: 4px 6px;
   width: 20%;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
-
 .blue-btn:hover{
   text-decoration: none;
   color: #000000;
@@ -398,9 +400,8 @@ justify-content: space-between;
   text-decoration: none;
   padding: 13px;
   margin: 4px 6px;
-   margin-bottom: 50px;
+  margin-bottom: 25px;
 }
-
 .gray-btn{
   text-decoration: none;
   color: #666666;
@@ -408,8 +409,7 @@ justify-content: space-between;
   background-color: #eeeeee;
   padding: 13px;
   margin: 4px 6px;
-  margin-bottom: 50px;
-
+  margin-bottom: 25px;
 }
 .gray-btn:hover{
   text-decoration: none;
@@ -418,7 +418,20 @@ justify-content: space-between;
   background-color: #e5e5e5;
   padding: 13px;
   margin: 4px 6px;
-   margin-bottom: 50px;
+  margin-bottom: 25px;
+}
+.forgot-pass{
+  margin-bottom: 100px;
+}
+.forgot-pass a{
+text-decoration: none;
+color: #666666;
+}
+.forgot-pass a:hover{
+text-decoration:underline;
+}
+.space{
+height: 100px;
 }
 /* -----------wedding--------- */
 
@@ -507,14 +520,15 @@ img{
 }
 .package-btn {
   border-radius: 39px;
-  background-color: #1cf196;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 19px 5px;
-  display: block;
-  margin: auto;
-  width: 265px;
-  margin: 45px auto;
+    background-color: #1cf196;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 19px 5px;
+    display: block;
+    color: black;
+    margin: auto;
+    width: 265px;
+    margin: 45px auto;
 }
 .package-btn i {
   margin-right: 10px;
@@ -678,13 +692,14 @@ input[type="email"],.query-form input[type="password"] {
 .wallpapers-content-inner .text h1
 {
   color:#ffffff;
-  font-size:  62px;
-  margin-top: 20px;}
+  font-size:  58px;
+  margin-top: 20px;
+}
 
 .wallpapers-content-inner .text h5
 {
   color:#ffea20;
-  font-size:  22px;
+  font-size:  21px;
   margin-top: 20px;
 
 }
@@ -728,17 +743,7 @@ input[type="email"],.query-form input[type="password"] {
   background-color: #ffea20;
   color: #000000;
 }
-/* Full-width input fields */
-/* input[type=text], input[type=email] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-} */
 
-/* Set a style for all buttons */
 button {
   background-color: #04AA6D;
   color: white;
@@ -942,4 +947,47 @@ span.psw {
   font-size: 16px;
   text-decoration: none;
   margin-bottom: 15px;
+}
+.payment{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  background: #ffffff;
+  flex-direction: column;
+}
+.payment h1{
+  margin: auto;
+  color: #fae900;
+  font-size: 40px;
+  margin: 20px;
+  font-weight: 600;
+
+  
+}
+.payment h5{
+  margin: auto;
+  color: #0800fc;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 400;
+
+  
+}
+.payment table,.payment th,.payment td {
+  border:2px solid black;
+  padding: 15px;
+  margin-bottom: 50px;
+
+}
+.payment table{
+  width: 100%;
+
+}
+.download-file{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

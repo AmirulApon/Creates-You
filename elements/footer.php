@@ -7,6 +7,8 @@
 <!-- Owl Script -->
 <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
 <!-- End Owl Script -->
+<!-- --------pdf-------- -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
 <!-- ----lightbox----- -->
 <script src="assets/js/script.js"></script>
 

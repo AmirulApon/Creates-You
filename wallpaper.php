@@ -18,7 +18,7 @@
   <section class="main-container ">
     <div class="container wallpapers-content">
       <div class="row wallpapers-content-inner text-start">
-        <div class="col-md-6 text">
+        <div class="col-md-4 text">
           <h1>Free Wallpapers</h1>
           <h5>Subscribe to download the free wallpapers</h5>
         </div>
@@ -117,28 +117,7 @@
         </div>
       </div>
     </section>
-    <section class="main-container">
-    <div class="container gallery1">
-        <a href="assets/image/01.-Full-day-coverage-02-.jpg">
-            <img src="assets/image/01.-Full-day-coverage-02-.jpg">
-        </a>
-        <a href="assets/image/01.-Full-day-coverage-02-.jpg">
-            <img src="assets/image/01.-Full-day-coverage-02-.jpg">
-        </a>
-        <a href="assets/image/01.-Full-day-coverage-02-.jpg">
-            <img src="assets/image/01.-Full-day-coverage-02-.jpg">
-        </a>
-        <a href="assets/image/01.-Full-day-coverage-02-.jpg">
-            <img src="assets/image/01.-Full-day-coverage-02-.jpg">
-        </a>
-        <a href="assets/image/01.-Full-day-coverage-02-.jpg">
-            <img src="assets/image/01.-Full-day-coverage-02-.jpg">
-        </a>
-        <a href="assets/image/01.-Full-day-coverage-02-.jpg">
-            <img src="assets/image/01.-Full-day-coverage-02-.jpg">
-        </a>
-    </div>
-    </section>
+    
 
   <footer>
     <!--Footer-->
