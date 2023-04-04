@@ -28,11 +28,11 @@
     </div>
     <div class="row navigation">
 
-      <div class="col-md-3 logo">
+      <div class="col-md-2 logo">
         <a href="index.php"><img src="assets/image/logo-01-01.png" alt="" /> </a>
       </div>
 
-      <div class="col-md-9 main-menu">
+      <div class="col-md-10 main-menu">
         <ul>
           <li><a href="index.php"> HOME</a></li>
           <li><a href="wallpaper.php"> FREE GIFTS</a></li>

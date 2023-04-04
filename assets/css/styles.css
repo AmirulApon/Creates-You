@@ -1,12 +1,10 @@
 
-
 body {
   margin: 0;
   padding: 0;
 }
 
 .container{
-  
   padding: 0;
 }
 .main-container {
@@ -41,7 +39,7 @@ body {
   display: flex;
 }
 .logo img {
-  width: 270px;
+  width: 250px;
 }
 .navigation .main-menu {
   display: flex;
@@ -61,7 +59,7 @@ body {
 }
 .navigation .main-menu ul li a {
   color: #f0f0f0;
-  padding: 12px 25px;
+  padding: 12px 20px;
   display: block;
   text-decoration: none;
   background-color: #151f29;
@@ -220,7 +218,13 @@ body {
   margin: auto;
   margin-bottom: 40px;
 }
+
 /* ------End content header----------- */
+.content-text{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
 .content-text h1 {
   font-family: "Inter", Sans-serif;
   font-size: 49px;
@@ -272,6 +276,7 @@ body {
   align-items: center;
   justify-content: center;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 .service-item ul li a {
   margin: 0 15px;
@@ -831,33 +836,23 @@ span.psw {
 }
 
 /* ------------review------------ */
-.review-inner {
+.review-inner{
+  color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    margin: 15px;
+}
+.review {
   background: url(../image/portraits.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
-  color: #000000;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.review-inner .review-content {
-  height: 512px;
-    background-color: transparent;
-    margin: 116px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #000000;
-    border: 2px solid rgb(255, 255, 255);
-}
-.review-text {
-  padding: 50px 50px 10px 50px;
-  text-align: justify;
+ 
 }
 .reviewer-picture img {
   border-radius: 50%;
@@ -990,4 +985,10 @@ span.psw {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }

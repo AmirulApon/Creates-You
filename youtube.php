@@ -18,13 +18,13 @@
   <section class="main-container video-content">
     <div class="container video-content-inner">
       <div class="row">
-        <div class="col-md-6 content-text">
+        <div class="col-md-6 col-sm-12 content-text">
           <h1>Creates for you One edit at a time</h1>
 
             <a class="btn btn-primary contact-btn" href="blog.php"><i class="fa fa-address-card-o" aria-hidden="true"></i> Blog Post</a>
         </div>
-        <div class="col-md-6 content-demo">
-          <iframe width="650" height="360" src="https://www.youtube.com/embed/qZVTkn2NjS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="col-md-6 col-sm-12  content-demo">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qZVTkn2NjS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
